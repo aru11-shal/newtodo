@@ -1,0 +1,26 @@
+<p>HEY BROS!!!</p>
+<h2>TODO LIST</h2>
+<style>
+    div,p,h2{
+      background-image: url('doodle.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    </style>
+<div class="addtask">
+<input [(ngModel)]="newTask" placeholder="Enter your task">
+<button (click)="addTask()" id="b1">Add Task</button>
+</div>
+
+<div class="taskList">
+<li *ngFor="let todoItem of todoList;let i=index">
+
+<input type="checkbox" name="" id="" (change)="toggleCompleted(i)">
+<span [class.completed]="todoItem.completed" >{{todoItem.task}}</span>
+<button class="deleteButton" (click)="deleteTask(todoItem.id)" id="b2">Delete</button>
+
+</li>
+</div>
+
+<router-outlet/>

@@ -1,0 +1,24 @@
+button{
+    background-color: bisque;
+    text-align: center;
+
+}
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: rgb(228, 78, 58);
+  }
+P,h2,div{
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+li{
+    background-color: rgba(241, 231, 245, 0.74);
+    padding: 1%;
+    margin: 0%;
+}
+

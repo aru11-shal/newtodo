@@ -1,0 +1,13 @@
+p,h1,h2{
+    background-color: rgba(111, 212, 252, 0.603);
+    margin: 0%;
+    padding: 31px;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    font-style: italic;
+}
+button{
+    box-sizing: content-box;
+}
